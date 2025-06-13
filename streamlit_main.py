@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 import pandas as pd
 
-# FASTAPI_BACKEND_URL = "http://127.0.0.1:8000"
-FASTAPI_BACKEND_URL = "http://backend:8000"
+FASTAPI_BACKEND_URL = "http://127.0.0.1:8000"
+#FASTAPI_BACKEND_URL = "http://backend:8000"
 
 
 def make_request(endpoint, payload):
